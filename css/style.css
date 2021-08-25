@@ -158,6 +158,7 @@ a{
     text-decoration: none;
 }
 
+
 .prl {
     width: 97px;
     height: 111px;
@@ -332,6 +333,10 @@ footer {
     letter-spacing: 0.025em;
     color: #ffffff;
     
+}
+
+.div_menuf a{
+    color: white;
 }
 
 .creating {
@@ -522,9 +527,19 @@ footer {
 
 
 /* feedback form */
-.form-link{
+
+
+.form-its-self{
+    display: flex;
 }
 
+
+.responsive-link a{
+    color: #767676;
+    text-decoration: none;
+    border-bottom: 2px dashed #767676;
+
+}
 .responsive-link{
     font-family: 'PT Sans';
     font-size: 24px;
@@ -603,6 +618,13 @@ footer {
 
 }
 
+.fool-form_1 {
+    display: none;
+}
+
+.fool-form_2 {
+    display: flex;
+}
 
 .form-title{
     font-family: 'PT Sans';
@@ -638,7 +660,6 @@ footer {
     width: 128px;
     height: 42px;
     background-color: #777777;
-
     margin-bottom: 45px;
 }
 .form-send{
@@ -646,10 +667,14 @@ footer {
     font-size: 17.8px;
     line-height: 1.2;
     font-weight: 700;
-    text-transform: uppercase;
     color: #ffffff;
-
     padding: 9px 15px;
+    margin-top: -35px;
+    margin-left: -39px;
+}
+
+.form-send-ul {
+    text-decoration: none;
 }
 
 

@@ -1,3 +1,3 @@
-$(document).ready(function(){
-    $('.slider').slick();
-});
+function viewDiv(){
+    document.getElementById("form-its-self").style.display = "block";
+};
